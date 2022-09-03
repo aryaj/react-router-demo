@@ -26,7 +26,7 @@ function App() {
       <AuthProvider>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/react-router-demo" element={<Home />}></Route>
           <Route
             path="about"
             element={

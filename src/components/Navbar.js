@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   return (
     <nav className="primary-nav">
-      <NavLink style={navLinkStyles} to="/">
+      <NavLink style={navLinkStyles} to="/react-router-demo/">
         Home{" "}
       </NavLink>
       <NavLink style={navLinkStyles} to="/about">
